@@ -7,8 +7,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * This program calculates the mean and median of a list of integers read from a file. It reads
- * input from "input.txt" and writes results to "output.txt".
+ * A program that calculates the mean and median of a set of values.
  *
  * @author Ioana Marinescu
  * @version 1.0
@@ -16,17 +15,12 @@ import java.util.Scanner;
  */
 public class ArraysJava {
 
-  /** Constructor for the FileIO class. */
-  public ArraysJava() {
-    // empty constructor
-  }
-
   /**
    * Main method to calculate mean and median from file input.
    *
    * @param args The command-line arguments (not used in this program)
    */
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     try {
       // files
       File inFile = new File("Unit2/Unit2-03/Unit1-07-Java-Arrays/input.txt");
@@ -88,7 +82,7 @@ public class ArraysJava {
    * @param nums The array of integers
    * @return The mean value as a double
    */
-  public static double calcMean(int[] nums) {
+  public static double calcMean(final int[] nums) {
     // variable declaration
     int sum = 0;
 
@@ -107,7 +101,7 @@ public class ArraysJava {
    * @param nums The array of integers
    * @return The median value as a formatted string
    */
-  public static String calcMedian(int[] nums) {
+  public static String calcMedian(final int[] nums) {
     // variable declaration
     int half = nums.length / 2;
 
