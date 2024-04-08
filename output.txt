@@ -1,2 +1,2 @@
-The mean is: 7.0
-The median is: 5
+The mean is: 7.555555555555555
+The median is: 6
