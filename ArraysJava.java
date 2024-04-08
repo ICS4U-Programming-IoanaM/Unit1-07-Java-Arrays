@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2024-04-06
  */
-
 @SuppressWarnings("HideUtilityClassConstructor")
 public class ArraysJava {
 
@@ -27,7 +26,6 @@ public class ArraysJava {
    *
    * @param args The command-line arguments (not used in this program)
    */
-  
   public static void main(final String[] args) {
     try {
       // files
